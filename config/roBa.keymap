@@ -69,7 +69,7 @@
             bindings = <
 &kp Q             &kp W      &kp E         &kp R                   &kp T                                                                                 &kp Y                   &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S      &kp D         &kp F                   &kp G                   &kp ESCAPE                            &kp DELETE              &kp H                   &kp J  &kp K      &kp L    &lt_to_layer_0 4 ENTER
-&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V                   &kp B                   &kp INTERNATIONAL_3                   &kp BACKSPACE           &kp N                   &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V                   &kp B                   &kp LANG_ZENKAKUHANKAKU               &kp BACKSPACE           &kp N                   &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_SHIFT    &kp LCTRL  &kp LEFT_ALT  &lt_to_layer_0 1 ENTER  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 INTERNATIONAL_4      &lt_to_layer_0 2 SPACE  &lt_to_layer_0 1 ENTER                             &kp PRINTSCREEN
             >;
 
@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND   &kp DOLLAR   &kp PERCENT                              &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET
-&kp F1           &kp F2             &kp F3      &kp F4       &kp F5       &kp F11      &kp F12        &kp F6         &kp F7            &kp F8                &kp F9                 &kp F10
-&kp LEFT_SHIFT   &kp K_CUT          &kp K_COPY  &kp K_PASTE  &trans       &trans       &kp BACKSPACE  &trans         &trans            &trans                &trans                 &kp RIGHT_SHIFT
-&kp LEFT_SHIFT   &kp LCTRL          &kp LALT    &trans       &trans       &trans       &trans         &trans                                                                        &kp PRINTSCREEN
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND   &kp DOLLAR   &kp PERCENT                                        &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET
+&kp F1           &kp F2             &kp F3      &kp F4       &kp F5          &kp F11             &kp F12        &kp F6         &kp F7            &kp F8                &kp F9                 &kp F10
+&kp LEFT_SHIFT   &kp K_CUT          &kp K_COPY  &kp K_PASTE  &kp C_AC_PASTE  &kp LANGUAGE_1      &kp BACKSPACE  &trans         &trans            &trans                &trans                 &kp RIGHT_SHIFT
+&kp LEFT_SHIFT   &kp LCTRL          &kp LALT    &trans       &trans          &trans              &trans         &trans                                                                        &kp PRINTSCREEN
             >;
         };
 
